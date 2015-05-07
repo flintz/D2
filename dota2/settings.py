@@ -38,8 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    #'core',
-    	
+    'joins',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -59,8 +58,6 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            #'/home/belosludov/dotaenv/dota2/templates',
-            #BASE_DIR + "/templates/",
             os.path.join(BASE_DIR, 'templates'),
         ],
         'APP_DIRS': True,

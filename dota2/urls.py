@@ -17,7 +17,7 @@ from django.conf.urls import include, url
 from django.contrib import admin
 
 urlpatterns = [
-    url(r'^$', 'dota2.views.home', name='home'),
+    url(r'^$', 'joins.views.home', name='home'),
     url(r'^admin/', include(admin.site.urls)),
     #url(r'^core/', include(admin.site.urls)),
 ]
